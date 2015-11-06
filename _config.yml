@@ -1,0 +1,138 @@
+
+# Site settings
+
+url: "https://accolver.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+baseurl: ''
+
+google-tracking-id: "UA-35880426-4"
+
+# Forces https everywhere in your website, except when you serve it locally
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+author: "Alan Colver"
+lang: "en"
+title: "{ Alan Colver }"
+favicon: "/img/favicon.ico"
+description: "Blog and website of Alan Colver, blogging mainly for tech. Opinions expressed are mine."
+keywords: "alan, colver, programming, software, dev, developer, rethinkdb, lendio, javascript, npm, node, meteor, personal, jekyll"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/code-blur.png"
+me-img: "/img/career/happy-couple.jpg"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: False	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "To know and not to do is really not to know."
+  - text: "The most successful man in life is the man who has the best information."
+  - text: "You can do anything, but you can't do everything."
+  - text: "The greatest good you can do for another is not just to share your riches but to reveal to him his own."
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "accolver"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/computer.jpg"
+    date: "2013 - Today"
+    description: "<strong>Lendio</strong><br/>Full-stack Engineer"
+  - image: "/img/career/siemens.jpg"
+    date: "2012 - 2013"
+    description: "<strong>Siemens</strong><br/>Web Developer"
+  - image: "/img/career/chromosomes.jpg"
+    date: "2009 - 2012"
+    description: "<strong>BYU</strong><br/>Bioinformatics"
+
+# First image of the Career timeline
+career-img: "/img/gravatar.jpg"
+
+##################
+# Contact layout #
+##################
+
+email: "accolver@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "linkedin"
+    url: "https://www.linkedin.com/pub/alan-colver/23/b05/89b"
+  - title: "twitter"
+    url: "https://twitter.com/acolve"
+  - title: "github"
+    url: "https://github.com/accolver"
+  # - title: "youtube"
+    # url: "https://youtube.com/"
+  # - title: "rss"
+  #   url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/404-bot.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+
+gems: [jekyll-paginate]
