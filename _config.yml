@@ -32,8 +32,8 @@ keywords: "alan, colver, programming, software, dev, developer, rethinkdb, lendi
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/code-blur.png"
-me-img: "/img/career/happy-couple.jpg"
+background-img: "../img/stars.jpg"
+me-img: "/img/gravatar.jpg"
 
 ##############################
 # Dynamic Text on the header #
@@ -48,9 +48,8 @@ start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "To know and not to do is really not to know."
-  - text: "The most successful man in life is the man who has the best information."
   - text: "You can do anything, but you can't do everything."
-  - text: "The greatest good you can do for another is not just to share your riches but to reveal to him his own."
+  - text: "Perfection is not attainable, but if we chase perfection we can catch excellence."
 
 ########
 # Blog #
@@ -81,7 +80,7 @@ events:
     description: "<strong>BYU</strong><br/>Bioinformatics"
 
 # First image of the Career timeline
-career-img: "/img/gravatar.jpg"
+career-img: "/img/career/happy-couple.jpg"
 
 ##################
 # Contact layout #
