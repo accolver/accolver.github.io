@@ -10,7 +10,7 @@ url: "https://accolver.github.io"
 
 baseurl: ''
 
-google-tracking-id: "UA-35880426-4"
+# google-tracking-id: "UA-35880426-4"
 
 # Forces https everywhere in your website, except when you serve it locally
 
@@ -24,7 +24,7 @@ author: "Alan Colver"
 lang: "en"
 title: "{ Alan Colver }"
 favicon: "/img/favicon.ico"
-description: "Blog and website of Alan Colver, blogging mainly for tech. Opinions expressed are mine."
+description: "Website of Alan Colver."
 keywords: "alan, colver, programming, software, dev, developer, rethinkdb, lendio, javascript, npm, node, meteor, personal, jekyll"
 
 ################
@@ -32,7 +32,7 @@ keywords: "alan, colver, programming, software, dev, developer, rethinkdb, lendi
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/street.jpg"
+background-img: "/img/street.jpg"
 me-img: "/img/gravatar.jpg"
 
 ##############################
@@ -43,7 +43,7 @@ dynamic-typing: True
 shuffle: False	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
+type-speed:	12		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
@@ -120,7 +120,6 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
 
