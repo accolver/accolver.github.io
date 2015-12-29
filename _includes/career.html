@@ -26,17 +26,19 @@
                           <h4>{{ event.date }}</h4>
                       </div>
                       <div class="timeline-body">
-                          {{ event.description | markdownify }}
+                        <a href="{{ event.link }}" target="_blank"><strong>{{ event.title }}</strong></a>
+                        <br/>
+                        {{ event.description }}
                       </div>
                   </div>
               </li>
             {% endfor %}
 
-            <li class="timeline-inverted">
+           <!--  <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.career-img }}" alt="">
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
     </div>
